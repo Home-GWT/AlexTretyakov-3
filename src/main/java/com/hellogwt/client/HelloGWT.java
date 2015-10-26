@@ -9,8 +9,8 @@ import com.google.gwt.user.client.ui.*;
 
 public class HelloGWT implements EntryPoint {
     private GreetingServiceAsync greetingService = GWT.create(GreetingService.class);
-    private TextBox nameTextBox = new TextBox();
-    private Label greetingLabel = new Label("Hello, GWT!");
+    private TextBox                  nameTextBox = new TextBox();
+    private Label                  greetingLabel = new Label("Hello, GWT!");
 
     @Override
     public void onModuleLoad() {
